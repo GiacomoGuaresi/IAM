@@ -1,0 +1,19 @@
+Versione:	1.2.0
+ + aggiunta connessione mail tramite smtp
+ + aggiunto pannello impostazioni messaggi e profili 
+ + aggiunto tasto synk per sincronizzazione istantanea
+
+Versione:	1.1.1
+ * diminuita sensibilità spostamento
+ * cambiato font changelog
+
+Versione:	1.1.0
+Data: 08-02-2018
+ + aggiunto CLI per testing delle varie funzioni
+ + aggiunta possibilità di spostare la barra sull'asse y 
+ * cambiato colore barra 
+
+Versione:	1.0.1
+Data:	30-01-2018  
+ + aggiunto changelog
+ + aggiunto autoview tramite doppio click su icona

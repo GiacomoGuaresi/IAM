@@ -1,0 +1,42 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="Timesheet_Hour" Type="System.String" Scope="User">
+      <Value Profile="(Default)">17</Value>
+    </Setting>
+    <Setting Name="Timesheet_Min" Type="System.String" Scope="User">
+      <Value Profile="(Default)">30</Value>
+    </Setting>
+    <Setting Name="Timesheet_Link" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://timesheet.interlem.it/timesheet/login.jsp</Value>
+    </Setting>
+    <Setting Name="Timesheet_Titolo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Avviso Timesheet</Value>
+    </Setting>
+    <Setting Name="Timesheet_Testo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">hey, ricordati di compilare il Timesheet prima di andare via </Value>
+    </Setting>
+    <Setting Name="Mail_Config_Indirizzo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">giacomo.guaresi@interlem.it</Value>
+    </Setting>
+    <Setting Name="Mail_Config_Password" Type="System.String" Scope="User">
+      <Value Profile="(Default)">white_eye1</Value>
+    </Setting>
+    <Setting Name="Mail_Titolo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Hai delle mail da leggere</Value>
+    </Setting>
+    <Setting Name="Mail_Testo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ti sono arrivate {n} mail, clicca qui per leggerle </Value>
+    </Setting>
+    <Setting Name="Mail_Link" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://mail.google.com/mail/u/0/#inbox</Value>
+    </Setting>
+    <Setting Name="Background" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Black</Value>
+    </Setting>
+    <Setting Name="BackgroundA" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">90</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
