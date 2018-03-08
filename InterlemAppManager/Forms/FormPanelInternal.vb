@@ -46,9 +46,23 @@ Public Class FormPanelInternal
         FormButton.BarToggle()
     End Sub
 
-    Private Sub Panel7_Click(sender As Object, e As EventArgs) Handles Panel7.Click
-        Dim webAddress As String = "https://calendar.google.com"
-        Process.Start(webAddress)
+    Private Sub Panel7_Click(ByVal sender As Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles Panel7.Click
+        If e.Button = Windows.Forms.MouseButtons.Right Then
+            MiniBrowser.showTool("file:///" & System.IO.Path.GetFullPath(Application.StartupPath & "\..\..\Resources\") & "calendar.html", Color.FromArgb(68, 131, 239), Color.FromArgb(54, 100, 208))
+        Else
+            Dim webAddress As String = "https://calendar.google.com"
+            Process.Start(webAddress)
+        End If
+        FormButton.BarToggle()
+    End Sub
+
+    Private Sub Panel8_Click(ByVal sender As Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles Panel8.Click
+        If e.Button = Windows.Forms.MouseButtons.Right Then
+            MiniBrowser.showTool("keep.google.com", Color.FromArgb(255, 160, 0), Color.FromArgb(255, 179, 0))
+        Else
+            Dim webAddress As String = "https://keep.google.com/"
+            Process.Start(webAddress)
+        End If
         FormButton.BarToggle()
     End Sub
 
@@ -84,5 +98,6 @@ Public Class FormPanelInternal
 
 
     End Sub
+
 
 End Class

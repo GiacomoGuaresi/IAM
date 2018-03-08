@@ -41,6 +41,7 @@ Partial Class FormPanelInternal
         '
         'Panel7
         '
+        Me.Panel7.BackColor = System.Drawing.Color.White
         Me.Panel7.BackgroundImage = Global.InterlemAppManager.My.Resources.Resources.google_calendar
         Me.Panel7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel7.Location = New System.Drawing.Point(5, 341)
@@ -50,6 +51,7 @@ Partial Class FormPanelInternal
         '
         'Panel6
         '
+        Me.Panel6.BackColor = System.Drawing.Color.White
         Me.Panel6.BackgroundImage = Global.InterlemAppManager.My.Resources.Resources.cropped_siteicon
         Me.Panel6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel6.Location = New System.Drawing.Point(5, 285)
@@ -59,6 +61,7 @@ Partial Class FormPanelInternal
         '
         'Panel5
         '
+        Me.Panel5.BackColor = System.Drawing.Color.White
         Me.Panel5.BackgroundImage = Global.InterlemAppManager.My.Resources.Resources.icon_hourly
         Me.Panel5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel5.Location = New System.Drawing.Point(5, 5)
@@ -68,6 +71,7 @@ Partial Class FormPanelInternal
         '
         'Panel4
         '
+        Me.Panel4.BackColor = System.Drawing.Color.White
         Me.Panel4.BackgroundImage = Global.InterlemAppManager.My.Resources.Resources.antex_logo_circolare
         Me.Panel4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel4.Location = New System.Drawing.Point(5, 229)
@@ -77,6 +81,7 @@ Partial Class FormPanelInternal
         '
         'Panel3
         '
+        Me.Panel3.BackColor = System.Drawing.Color.White
         Me.Panel3.BackgroundImage = Global.InterlemAppManager.My.Resources.Resources.hangouts1
         Me.Panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel3.Location = New System.Drawing.Point(5, 173)
@@ -86,6 +91,7 @@ Partial Class FormPanelInternal
         '
         'Panel2
         '
+        Me.Panel2.BackColor = System.Drawing.Color.White
         Me.Panel2.BackgroundImage = Global.InterlemAppManager.My.Resources.Resources.Gmail
         Me.Panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel2.Location = New System.Drawing.Point(5, 117)
@@ -95,6 +101,7 @@ Partial Class FormPanelInternal
         '
         'Panel1
         '
+        Me.Panel1.BackColor = System.Drawing.Color.White
         Me.Panel1.BackgroundImage = Global.InterlemAppManager.My.Resources.Resources.openProject_logo
         Me.Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel1.Location = New System.Drawing.Point(5, 61)
@@ -104,7 +111,8 @@ Partial Class FormPanelInternal
         '
         'Panel8
         '
-        Me.Panel8.BackgroundImage = Global.InterlemAppManager.My.Resources.Resources.google_calendar
+        Me.Panel8.BackColor = System.Drawing.Color.White
+        Me.Panel8.BackgroundImage = Global.InterlemAppManager.My.Resources.Resources.keep_512
         Me.Panel8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel8.Location = New System.Drawing.Point(5, 397)
         Me.Panel8.Name = "Panel8"
