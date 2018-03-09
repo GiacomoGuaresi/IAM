@@ -18,10 +18,10 @@
       <Value Profile="(Default)">hey, ricordati di compilare il Timesheet prima di andare via </Value>
     </Setting>
     <Setting Name="Mail_Config_Indirizzo" Type="System.String" Scope="User">
-      <Value Profile="(Default)">giacomo.guaresi@interlem.it</Value>
+      <Value Profile="(Default)">[email]</Value>
     </Setting>
     <Setting Name="Mail_Config_Password" Type="System.String" Scope="User">
-      <Value Profile="(Default)">white_eye1</Value>
+      <Value Profile="(Default)">[password]</Value>
     </Setting>
     <Setting Name="Mail_Titolo" Type="System.String" Scope="User">
       <Value Profile="(Default)">Hai delle mail da leggere</Value>

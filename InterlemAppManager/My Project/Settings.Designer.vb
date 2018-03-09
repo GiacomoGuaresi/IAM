@@ -116,7 +116,7 @@ Namespace My
         
         <Global.System.Configuration.UserScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("giacomo.guaresi@interlem.it")>  _
+         Global.System.Configuration.DefaultSettingValueAttribute("[email]")>  _
         Public Property Mail_Config_Indirizzo() As String
             Get
                 Return CType(Me("Mail_Config_Indirizzo"),String)
@@ -128,7 +128,7 @@ Namespace My
         
         <Global.System.Configuration.UserScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("white_eye1")>  _
+         Global.System.Configuration.DefaultSettingValueAttribute("[password]")>  _
         Public Property Mail_Config_Password() As String
             Get
                 Return CType(Me("Mail_Config_Password"),String)
